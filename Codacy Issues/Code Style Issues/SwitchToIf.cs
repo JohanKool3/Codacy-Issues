@@ -19,11 +19,17 @@ namespace Codacy_Issues.Code_Style_Issues
 
         public void ChangeValue(int valueIn)
         {
-            Value = valueIn switch
+            switch (valueIn)
             {
-                0 => 1,// Invalid value for this Attribute as must not be 0
-                _ => valueIn,
-            };
+                case 0:
+                    // Invalid value for this Attribute as must not be 0
+                    Value = 1;
+                    break;
+
+                default:
+                    Value = valueIn;
+                    break;
+            }
 
         }
     }
