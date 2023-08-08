@@ -1,7 +1,7 @@
 ﻿
 namespace Codacy_Issues.Code_Style_Issues
 {
-    internal class ParamterMethodOverlap
+    internal class ParameterMethodOverlap
     {
 
         public static void Attack(string attackType, string person)
