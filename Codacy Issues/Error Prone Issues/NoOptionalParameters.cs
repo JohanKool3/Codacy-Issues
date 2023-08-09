@@ -14,7 +14,7 @@ namespace Codacy_Issues.Error_Prone_Issues
             {
 
 
-                if (amount > 1)
+                if (amount == 1)
                 {
                     Console.WriteLine($"I ate {amount} {meal}s on my own");
                 }
