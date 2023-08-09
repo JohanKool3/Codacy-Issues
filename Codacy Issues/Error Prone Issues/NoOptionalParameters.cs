@@ -40,6 +40,7 @@ namespace Codacy_Issues.Error_Prone_Issues
 
         void Notify(string company, string office = "QJZ") // Noncompliant
         {
+            Console.WriteLine($"Company: {company}, Office: {office}");
         }
     }
 }
