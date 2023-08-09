@@ -38,9 +38,10 @@ namespace Codacy_Issues.Error_Prone_Issues
             return a + b;
         }
 
-        void Notify(string company, string office = "QJZ") // Noncompliant
+
+        void Notify(string company,int employeeAmount, string office = "QJZ") // Noncompliant
         {
-            Console.WriteLine($"Company: {company}, Office: {office}");
+            Console.WriteLine($"Company: {company}, Office: {office}, with {employeeAmount} employees");
         }
     }
 }
