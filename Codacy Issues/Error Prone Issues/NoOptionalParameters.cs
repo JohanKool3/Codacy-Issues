@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Codacy_Issues.Error_Prone_Issues
 {
-    internal class NoOptionalParameters
+    public class NoOptionalParameters
     {
         public void Eat(string meal, int amount = 1, bool isHungry = false)
         {
