@@ -13,8 +13,12 @@ namespace Codacy_Issues.Error_Prone_Issues
             try
             {
 
+                if(!isHungry)
+                {
+                    Console.WriteLine("Not hungry at the moment..");
+                }
 
-                if (amount == 1)
+                else if (amount == 1)
                 {
                     Console.WriteLine($"I ate {amount} {meal}s on my own");
                 }
