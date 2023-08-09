@@ -41,9 +41,14 @@ namespace Codacy_Issues.Error_Prone_Issues
 
         //This is a test to see if ignoring an issue works even after adding a
         //new parameter and changing the line it is on
-        void Notify(string company,int employeeAmount, string office = "QJZ") // Noncompliant
+        public void Notify(string company,int employeeAmount, string office = "QJZ") // Noncompliant
         {
             Console.WriteLine($"Company: {company}, Office: {office}, with {employeeAmount} employees");
+        }
+
+        public void SendNotification(string type = "email", string message = "Test", string recipient = "me")
+        {
+              Console.WriteLine($"Sending {type} to {recipient} with message {message}");
         }
     }
 }
