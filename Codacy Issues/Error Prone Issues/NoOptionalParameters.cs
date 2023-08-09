@@ -41,6 +41,7 @@ namespace Codacy_Issues.Error_Prone_Issues
             Console.WriteLine($"Company: {company}, Office: {office}, with {employeeAmount} employees");
         }
 
+        public void SendNotification(string message, string recipient) => SendNotification("email", message, recipient);
         public void SendNotification(string type = "email", string message = "Test", string recipient = "me")
         {
               Console.WriteLine($"Sending {type} to {recipient} with message {message}");
