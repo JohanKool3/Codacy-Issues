@@ -28,5 +28,10 @@ namespace Codacy_Issues.Error_Prone_Issues
                 Console.WriteLine(e.Message);
             }
         }
+
+        public int Add(int a, int b = 0)
+        {
+            return a + b;
+        }
     }
 }
