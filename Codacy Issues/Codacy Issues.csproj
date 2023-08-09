@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="Error Prone Issues\" />
-    <Folder Include="Performance\" />
     <Folder Include="Security Issues\" />
   </ItemGroup>
 
