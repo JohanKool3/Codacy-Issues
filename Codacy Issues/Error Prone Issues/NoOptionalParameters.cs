@@ -37,5 +37,9 @@ namespace Codacy_Issues.Error_Prone_Issues
         {
             return a + b;
         }
+
+        void Notify(string company, string office = "QJZ") // Noncompliant
+        {
+        }
     }
 }
