@@ -45,5 +45,10 @@ namespace Codacy_Issues.Error_Prone_Issues
         {
               Console.WriteLine($"Sending {type} to {recipient} with message {message}");
         }
+
+        public void OpenApplication(string appName = "notepad", string? message = null)
+        {
+            Console.WriteLine($"Opening {appName} with message {message}");
+        }
     }
 }
