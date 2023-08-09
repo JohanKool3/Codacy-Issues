@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Codacy_Issues.Error_Prone_Issues
 {
     public class NoOptionalParameters
