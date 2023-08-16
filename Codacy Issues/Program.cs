@@ -9,3 +9,5 @@ NoOptionalParameters noOptionalParameters = new ();
 
 noOptionalParameters.Eat("pizza", 2, true);
 Console.WriteLine(noOptionalParameters.Add(1).ToString());
+
+noOptionalParameters.Notify("Codacy", 10);
